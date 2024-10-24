@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>01_Login Success</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>48092beb-bc99-4e40-be09-c70b0682c178</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>bed26e69-a1d3-4a9f-b4c9-1ae05daf604b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2701684f-b550-4f58-99fe-fe5defc04148</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>93d7dd7b-6666-4359-bc67-4f612527a078</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'John Doe'</defaultValue>
+      <description></description>
+      <id>bed26e69-a1d3-4a9f-b4c9-1ae05daf604b</id>
+      <masked>false</masked>
+      <name>usernamel</name>
+   </variable>
+   <variable>
+      <defaultValue>'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM\''</defaultValue>
+      <description></description>
+      <id>2701684f-b550-4f58-99fe-fe5defc04148</id>
+      <masked>false</masked>
+      <name>passwordl</name>
+   </variable>
+   <variable>
+      <defaultValue>'https://katalon-demo-cura.herokuapp.com'</defaultValue>
+      <description></description>
+      <id>93d7dd7b-6666-4359-bc67-4f612527a078</id>
+      <masked>false</masked>
+      <name>BaseURLl</name>
+   </variable>
+</TestCaseEntity>
