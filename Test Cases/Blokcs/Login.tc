@@ -6,16 +6,25 @@
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>95622c51-25f3-4486-b3d7-e80e5728b1c4</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>2c1d5e94-4c50-4413-b80f-2d7e7be5a1e7</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/katalonData/validLogin</testDataId>
+   </testDataLinks>
    <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
+      <testDataLinkId>2c1d5e94-4c50-4413-b80f-2d7e7be5a1e7</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>usernamel</value>
       <variableId>cf9c11fd-770b-464c-853b-59b2dab6785e</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
+      <testDataLinkId>2c1d5e94-4c50-4413-b80f-2d7e7be5a1e7</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>passwordl</value>
       <variableId>964a370f-840f-48ef-986d-d5e93eac7fc2</variableId>
    </variableLinks>
    <variable>
@@ -23,13 +32,13 @@
       <description></description>
       <id>cf9c11fd-770b-464c-853b-59b2dab6785e</id>
       <masked>false</masked>
-      <name>username</name>
+      <name>usernamel</name>
    </variable>
    <variable>
       <defaultValue>'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM\''</defaultValue>
       <description></description>
       <id>964a370f-840f-48ef-986d-d5e93eac7fc2</id>
       <masked>false</masked>
-      <name>password</name>
+      <name>passwordl</name>
    </variable>
 </TestCaseEntity>

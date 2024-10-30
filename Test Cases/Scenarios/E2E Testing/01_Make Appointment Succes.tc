@@ -6,4 +6,31 @@
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>e35887d6-1204-4699-aafa-4b717edbb65b</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>796b9118-89db-4a30-938d-17c7d671b954</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/katalonData/validMA</testDataId>
+   </testDataLinks>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>4294fa9f-b0fc-43f0-9ff6-953705715392</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/katalonData/validLogin</testDataId>
+   </testDataLinks>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>47d20c41-cf47-4217-8250-40d52af2e835</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/katalonData/baseURL</testDataId>
+   </testDataLinks>
 </TestCaseEntity>

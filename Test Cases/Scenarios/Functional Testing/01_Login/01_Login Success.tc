@@ -6,22 +6,31 @@
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>48092beb-bc99-4e40-be09-c70b0682c178</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>dd51f4f5-6166-457f-aab0-0f9dc104a696</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/katalonData/validLogin</testDataId>
+   </testDataLinks>
    <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
+      <testDataLinkId>dd51f4f5-6166-457f-aab0-0f9dc104a696</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>usernamel</value>
       <variableId>bed26e69-a1d3-4a9f-b4c9-1ae05daf604b</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
+      <testDataLinkId>dd51f4f5-6166-457f-aab0-0f9dc104a696</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>passwordl</value>
       <variableId>2701684f-b550-4f58-99fe-fe5defc04148</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
+      <testDataLinkId>dd51f4f5-6166-457f-aab0-0f9dc104a696</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>BaseURLl</value>
       <variableId>93d7dd7b-6666-4359-bc67-4f612527a078</variableId>
    </variableLinks>
    <variable>

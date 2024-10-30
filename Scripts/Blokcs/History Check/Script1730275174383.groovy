@@ -17,15 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.verifyElementVisible(findTestObject('01_Login/button_Make Appointment'), FailureHandling.OPTIONAL)
+WebUI.click(findTestObject('03_History/dropdown_Menu'))
 
-WebUI.click(findTestObject('01_Login/button_Make Appointment'))
+WebUI.click(findTestObject('03_History/button_dropdown_History'))
 
-WebUI.setText(findTestObject('01_Login/input_Username'), usernamel)
-
-WebUI.setEncryptedText(findTestObject('01_Login/input_Password'), passwordl)
-
-WebUI.click(findTestObject('01_Login/button_Login'))
-
-WebUI.verifyElementVisible(findTestObject('01_Login/text_Make Appointment'))
+WebUI.verifyElementVisible(findTestObject('03_History/label_Facility'))
 

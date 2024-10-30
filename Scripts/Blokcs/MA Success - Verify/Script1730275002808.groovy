@@ -17,8 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Scenarios/Functional Testing/01_Login/01_Login Success'), [:], FailureHandling.STOP_ON_FAILURE)
-
 WebUI.selectOptionByIndex(findTestObject('02_Make Appoinment/select_facility'), facility)
 
 //WebUI.check(findTestObject('02_Make Appoinment/cb_hospital_readmission'))

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>MA Success - Verify</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d52bb1b6-1f31-4836-a214-567aa8530e70</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>064da4b3-096f-4d28-82fa-59ed0d3bee5b</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/katalonData/validMA</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>064da4b3-096f-4d28-82fa-59ed0d3bee5b</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>hospital_checkbox</value>
+      <variableId>0ef7cc42-32b0-4abc-b230-2a14596f84ee</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>064da4b3-096f-4d28-82fa-59ed0d3bee5b</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>hc_program</value>
+      <variableId>b63f2a23-39c2-41ff-b7e7-c3b0bd641f35</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>064da4b3-096f-4d28-82fa-59ed0d3bee5b</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>facility</value>
+      <variableId>2ba4b2ab-7376-4426-a8cd-355529c6e5f8</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>false</defaultValue>
+      <description></description>
+      <id>0ef7cc42-32b0-4abc-b230-2a14596f84ee</id>
+      <masked>false</masked>
+      <name>hospital_checkbox</name>
+   </variable>
+   <variable>
+      <defaultValue>'None'</defaultValue>
+      <description></description>
+      <id>b63f2a23-39c2-41ff-b7e7-c3b0bd641f35</id>
+      <masked>false</masked>
+      <name>hc_program</name>
+   </variable>
+   <variable>
+      <defaultValue>1</defaultValue>
+      <description></description>
+      <id>2ba4b2ab-7376-4426-a8cd-355529c6e5f8</id>
+      <masked>false</masked>
+      <name>facility</name>
+   </variable>
+</TestCaseEntity>

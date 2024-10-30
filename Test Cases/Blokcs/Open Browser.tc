@@ -6,4 +6,26 @@
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>90379374-56f7-4f25-8645-f77451dc4de5</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>66e3888e-f73a-4e72-b1a2-aa67ac9598fb</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/katalonData/baseURL</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>66e3888e-f73a-4e72-b1a2-aa67ac9598fb</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>baseurl</value>
+      <variableId>af2ff662-1174-44c4-a5d2-a400c80337be</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'https://katalon-demo-cura.herokuapp.com'</defaultValue>
+      <description></description>
+      <id>af2ff662-1174-44c4-a5d2-a400c80337be</id>
+      <masked>false</masked>
+      <name>baseurl</name>
+   </variable>
 </TestCaseEntity>

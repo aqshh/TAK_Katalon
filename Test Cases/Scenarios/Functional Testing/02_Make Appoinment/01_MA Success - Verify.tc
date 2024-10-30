@@ -16,12 +16,6 @@
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>742310ad-4cce-4973-9f2f-a39bd6be164a</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
       <variableId>99f49b76-c12d-4d58-9414-9ad66e8a227b</variableId>
    </variableLinks>
    <variableLinks>
@@ -30,31 +24,12 @@
       <value></value>
       <variableId>6df7a91e-139b-4833-b11c-8ac58b943ad3</variableId>
    </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>151da6f8-b1a4-4ae8-8aee-e29319473bc1</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>d72d5fa2-a25a-4329-97c9-f2437bb0e29f</variableId>
-   </variableLinks>
    <variable>
-      <defaultValue>true</defaultValue>
+      <defaultValue>false</defaultValue>
       <description></description>
       <id>28672588-7ebb-4cc6-8a7c-677dcc5ea1df</id>
       <masked>false</masked>
       <name>hospital_checkbox</name>
-   </variable>
-   <variable>
-      <defaultValue>'Yes'</defaultValue>
-      <description></description>
-      <id>742310ad-4cce-4973-9f2f-a39bd6be164a</id>
-      <masked>false</masked>
-      <name>hostpital_redmision</name>
    </variable>
    <variable>
       <defaultValue>'None'</defaultValue>
@@ -64,24 +39,10 @@
       <name>hc_program</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>1</defaultValue>
       <description></description>
       <id>6df7a91e-139b-4833-b11c-8ac58b943ad3</id>
       <masked>false</masked>
-      <name>variable_2</name>
-   </variable>
-   <variable>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>151da6f8-b1a4-4ae8-8aee-e29319473bc1</id>
-      <masked>false</masked>
-      <name>variable_3</name>
-   </variable>
-   <variable>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>d72d5fa2-a25a-4329-97c9-f2437bb0e29f</id>
-      <masked>false</masked>
-      <name>variable_4</name>
+      <name>facility</name>
    </variable>
 </TestCaseEntity>

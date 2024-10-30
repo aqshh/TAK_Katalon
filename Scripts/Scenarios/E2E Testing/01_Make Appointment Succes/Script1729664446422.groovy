@@ -17,12 +17,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Blokcs/Open Browser'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Blokcs/Open Browser'), [('baseurl') : 'https://katalon-demo-cura.herokuapp.com'], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Blokcs/Login'), [('username') : 'John Doe', ('password') : 'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM\''], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Blokcs/Make Appointment'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Blokcs/MA Success - Verify'), [('hospital_checkbox') : false, ('hc_program') : 'None', ('facility') : 1], 
+    FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Blokcs/History Check'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Blokcs/Close Browser'), [:], FailureHandling.STOP_ON_FAILURE)
 
